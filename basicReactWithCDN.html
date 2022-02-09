@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic React react with HTML [HOW IT WORK]</title>
+    <!-- 1)1st link is react optimsed codebase [optimised krta hai code ko] -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <!-- 2nd link is for jo change hote hai unko lane k liye -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+    <!-- 3rd link is babel link alag search krna pdhega to connect jsx ie javascript in html-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"
+      integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <h4>Basic React react with HTML [HOW IT WORK]</h4>
+    <div id="root"></div>
+  </body>
+  <script type="text/babel">
+    function Hello() {
+      return <h3>React first functional component </h3>;
+    }
+
+    ReactDOM.render(<Hello> </Hello>, document.querySelector("#root"));
+  </script>
+</html>
+
+<!-- steps through CDN link : 1) install 2 cdn link and 3rd link is babel to understand the jsx ie function me '<' bracket
+
+    2) make component that is Hello function[jo component hota h usko hm HTML tag ki trah use krte]
+    3)  to perform change :
+     ReactDOM.render(<Hello> [1st parameter jo compoennt render krna hai], document.querySelector("#root")[2nd parameter is jisme
+         changes perform krne hai]);
+
+    4)  <script type="text/babel"> -> yeh type bhi paas krege
+ -->

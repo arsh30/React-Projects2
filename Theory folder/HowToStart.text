@@ -1,0 +1,12 @@
+Requirement:
+
+1) node.js
+2) Browser
+3)Vscode
+
+HOW TO CREATE REACT APP ->
+1) npx create-react-app fileName[imdb], How to run -> go in that folder and write in terminal [npm start]
+
+2) Dekhege ki project jo bnana hai usme kya kya parts hai that is compoenents ki kya kya require hai compoenents
+
+3)

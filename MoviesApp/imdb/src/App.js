@@ -32,7 +32,7 @@ function App() {
               </>
             }
           ></Route>
-          <Route path="/favourite" element={<Favourities/> }></Route>
+          <Route path="/favourite" element={<Favourities />}></Route>
         </Routes>
         {/* <Banner></Banner>
       <Movies></Movies>
